@@ -1,0 +1,108 @@
+html {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
+body {
+  position: absolute;
+  right: 27%;
+  background-color: rgba(221 221 221 / 0.8);
+  }
+
+h1 {
+  background-color: rgb(168, 164, 164);
+  text-align: center;
+  color: rgb(79, 33, 9);
+  font-size: 50px;
+  font-style: oblique;
+}
+
+.list {
+  position: fixed;
+  top: 0%;
+  right: 3%;
+  height: 400px;
+  width: 200px;
+  font-size: 20px;
+  background-color: rgb(167, 146, 119, 0.7);
+  border-bottom: 10px #06032e solid;
+  border-top: 10px #074303 solid;
+  border-right: 10px #770808 solid;
+  border-left: 10px #d7d41c solid;
+  font-style: italic;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #0b0101;
+}
+
+a:visited {
+  color: #5a3104;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #100b00;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #c59464;
+}
+
+a:active {
+  background: #265301;
+  color: #cdfeaa;
+}
+
+h2 {
+  text-align: center; 
+  color:#211549ee;
+  font-size: 30px;
+  font-style: italic;
+}
+
+p  {
+  color: #040c08;
+  text-align: justify;
+  font-size: 25px;
+  margin: 30px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 30px;
+}
+
+table {
+  background-color: rgba(221 221 221 / 0.5);
+  height: 300px;
+  width: 700px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 50px;
+}
+
+th {
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px 20px;
+}
